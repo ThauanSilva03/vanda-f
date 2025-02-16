@@ -1,101 +1,102 @@
-import Image from "next/image";
+import { Search } from "lucide-react";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+    <div>
+      <section className="flex flex-col h-[480px] bg-green-600 text-white">
+        <div className="w-full flex justify-end pb-10 pt-3">
+          <div>
+            <nav className="px-24">
+              <ul className="flex gap-4 font-semibold text-lg">
+                <li>
+                  <a href="">Analyze your daya</a>
+                </li>
+                <li>
+                  <a href="">About</a>
+                </li>
+                <li>
+                  <a href="">Github</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+        <div className="flex items-center justify-center py-4">
+          <div className="flex flex-col w-2/5">
+            <div className="flex items-end pb-1 gap-1">
+              <div className="bg-white h-24 w-24 flex items-center justify-center rounded-full"></div>
+              <div className=" flex flex-col">
+                <h1 className="font-bold text-6xl">VANDA</h1>
+                <h3 className="font-semibold">
+                  Visualization and Analysis Nutrigenetic Data
+                </h3>
+              </div>
+            </div>
+
+            <div className="h-20 flex flex-row max-w-full">
+              <input
+                type="text"
+                name=""
+                id=""
+                className="h-full flex-grow text-xl pl-3 text-black rounded-s-xl outline-none"
+              />
+              <button className="h-full w-20 bg-green-900 rounded-e-xl items-center justify-center flex">
+                <Search />
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="px-96 pb-20">
+        <section className="flex flex-row py-10">
+          {" "}
+          {/* About section */}
+          <div className="flex-grow">
+            <h1 className="font-bold text-3xl py-6">About the plataform</h1>
+            <p className="font-semibold text-xl text-justify">
+              VANDA is a web platform designed for the analysis and exploration
+              of nutrigenetic data. By linking genetic variations (SNPs) to
+              pathologies, it assists researchers and healthcare professionals
+              in creating personalized dietary plans. The platform integrates
+              data from public repositories like dbSNP and uses advanced
+              categorization and summarization techniques to offer a
+              user-friendly experience.
+            </p>
+          </div>
+          <div></div>
+        </section>
+        <section className="flex flex-col">
+          {/* Database section */}
+          <h1 className="font-bold text-3xl py-6">Database</h1>
+          <div className="flex-grow">
+            <h1 className="font-bold text-2xl pb-6">NCBI</h1>
+            <p className="font-semibold text-xl text-justify">
+              The NCBI (National Center for Biotechnology Information) is part
+              of the U.S. National Institutes of Health (NIH), focused on
+              biotechnology and bioinformatics. It provides a wide range of
+              resources and tools for biomedical and genomic research. Among its
+              features, the NCBI hosts important databases such as GenBank (DNA
+              sequences), PubMed (scientific articles), BLAST (sequence
+              alignment tool), and Gene (gene information). The site is widely
+              used by scientists, doctors, and students to access genetic data,
+              perform sequence analysis, and consult academic publications.
+            </p>
+          </div>
+          <div className="flex-grow">
+            <h1 className="font-bold text-2xl py-6">GeneCards</h1>
+            <p className="font-semibold text-xl text-justify">
+              GeneCards is a searchable, integrative database that provides
+              comprehensive, user-friendly information on all annotated and
+              predicted human genes. The knowledgebase automatically integrates
+              gene-centric data from ~150 web sources, including genomic,
+              transcriptomic, proteomic, genetic, clinical and functional
+              information.
+            </p>
+          </div>
+        </section>
+      </section>
+      <hr className="border-t border-gray-300 my-6" />
+      <footer></footer>
     </div>
   );
 }
