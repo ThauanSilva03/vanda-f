@@ -21,7 +21,7 @@ export default function Header() {
           <Link href="/">VANDA</Link>
         </div>
         <nav>
-          <ul className="flex flex-row gap-2">
+          <ul className="flex flex-row gap-6">
             <li className="hover:underline">
               <Link href="/dataAnalysis">Data Analysis</Link>
             </li>
