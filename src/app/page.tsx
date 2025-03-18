@@ -2,15 +2,19 @@
 import Footer from "@/components/footer";
 import { Search } from "lucide-react";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
+import { useState } from "react";
 // import { useRouter } from "next/navigation";
 import { FaGithub } from "react-icons/fa";
 
 export default function Home() {
-  // const router = useRouter();
+  const [query, setQuery] = useState("");
+  const router = useRouter();
 
-  // const aboutNavigation = () => {
-  //   router.push("/about");
-  // };
+  const handleSearch = () => {
+    if (!query.trim()) return;
+    router.push(`/search?query=${encodeURIComponent(query)}`);
+  };
   return (
     <div>
       <section className="flex flex-col h-[480px] bg-green-600 text-white">
@@ -56,11 +60,15 @@ export default function Home() {
             <div className="h-20 flex flex-row max-w-full">
               <input
                 type="text"
-                name=""
-                id=""
+                placeholder="Search article by SNP"
+                value={query}
+                onChange={(e) => setQuery(e.target.value)}
                 className="h-full flex-grow text-xl pl-3 text-black rounded-s-xl outline-none"
               />
-              <button className="h-full w-20 bg-green-900 rounded-e-xl items-center justify-center flex hover:bg-green-800">
+              <button
+                onClick={handleSearch}
+                className="h-full w-20 bg-green-900 rounded-e-xl items-center justify-center flex hover:bg-green-800"
+              >
                 <Search />
               </button>
             </div>
