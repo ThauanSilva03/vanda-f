@@ -56,8 +56,8 @@ export default function SNPDetailPage() {
       <div className="max-w-6xl p-4 mx-auto">
         {loading && (
           <div className="flex p-10 justify-center items-center">
-            <FaSpinner className="animate-spin text-blue-500 text-3xl" />
-            <h2 className="ml-2 text-xl text-blue-500">Loading articles...</h2>
+            <FaSpinner className="animate-spin text-green-600 text-3xl" />
+            <h2 className="ml-2 text-xl text-green-600">Loading articles...</h2>
           </div>
         )}
         {error && <h2 className="text-center text-red-600 mt-4">{error}</h2>}
@@ -77,7 +77,7 @@ export default function SNPDetailPage() {
                       {articles.map((article, index) => (
                         <li
                           key={`${article.pmid}-${index}`}
-                          className="border-l-4 border-blue-500 pl-4"
+                          className="border-l-4 border-green-600 pl-4"
                         >
                           <p className="font-semibold text-lg">
                             {article.title}
