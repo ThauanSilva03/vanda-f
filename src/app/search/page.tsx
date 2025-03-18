@@ -81,25 +81,23 @@ export default function Search() {
                       <span className="font-bold">Chromossome number</span>:{" "}
                       {item.chromossome_number}
                     </p>
-
-                    {item.mutations.genomics.length > 0 && (
-                      <div className="space-y-1 mt-2">
-                        {item.mutations.genomics.map((genomic, idx) => (
-                          <div key={idx}>
-                            <p className="text-gray-900 text-base">
-                              <span className="font-bold">Genomic ID</span>:{" "}
-                              {genomic.id}
-                            </p>
-                            <p>
-                              <span className="font-bold">
-                                Genomic Mutation
-                              </span>
-                              : {genomic.mutation}
-                            </p>
-                          </div>
-                        ))}
-                      </div>
-                    )}
+                    <div className="flex">
+                      <p className="text-gray-900 text-base mt-2">
+                        <span className="font-bold">HGVS</span>:{" "}
+                      </p>
+                      {item.mutations.genomics.length > 0 && (
+                        <div className="pl-2 mt-2">
+                          {item.mutations.genomics.map((genomic, idx) => (
+                            <div key={idx} className="flex">
+                              <p className="text-gray-900 text-base">
+                                {genomic.id}
+                              </p>
+                              <p>{genomic.mutation}</p>
+                            </div>
+                          ))}
+                        </div>
+                      )}
+                    </div>
                   </div>
                 </li>
               ))}
