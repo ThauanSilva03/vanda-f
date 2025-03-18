@@ -4,7 +4,7 @@ import { useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
 import { getFastAPI } from "@/api/fastAPI";
 import Link from "next/link";
-import { FaSpinner } from "react-icons/fa";
+import { LiaSpinnerSolid } from "react-icons/lia";
 
 export default function Search() {
   const searchParams = useSearchParams();
@@ -50,7 +50,7 @@ export default function Search() {
         {/* Seção de carregamento */}
         {loading && (
           <div className="flex p-10 justify-center items-center">
-            <FaSpinner className="animate-spin text-green-600 text-3xl" />
+            <LiaSpinnerSolid className="animate-spin text-green-600 text-4xl" />
             <h2 className="ml-2 text-xl text-green-600">Loading SNPs...</h2>
           </div>
         )}

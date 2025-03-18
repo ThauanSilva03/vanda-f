@@ -3,7 +3,7 @@ import Header from "@/components/header";
 import { useEffect, useState } from "react";
 import { getFastAPI } from "@/api/fastAPI";
 import { useParams } from "next/navigation";
-import { FaSpinner } from "react-icons/fa";
+import { LiaSpinnerSolid } from "react-icons/lia";
 
 // Tipos para o retorno das publicações
 interface Article {
@@ -56,7 +56,7 @@ export default function SNPDetailPage() {
       <div className="max-w-6xl p-4 mx-auto">
         {loading && (
           <div className="flex p-10 justify-center items-center">
-            <FaSpinner className="animate-spin text-green-600 text-3xl" />
+            <LiaSpinnerSolid className="animate-spin text-green-600 text-4xl" />
             <h2 className="ml-2 text-xl text-green-600">Loading articles...</h2>
           </div>
         )}
