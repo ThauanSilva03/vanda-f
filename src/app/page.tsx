@@ -21,7 +21,7 @@ export default function Home() {
         <div className="w-full flex justify-end pb-10 pt-3">
           <div>
             <nav className="px-96">
-              <ul className="flex gap-4 font-semibold text-xl ">
+              <ul className="flex gap-6 font-semibold text-xl ">
                 <li className="hover:underline">
                   <a href="/dataAnalysis">Data analysis</a>
                 </li>
