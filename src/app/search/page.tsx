@@ -50,8 +50,8 @@ export default function Search() {
         {/* Seção de carregamento */}
         {loading && (
           <div className="flex p-10 justify-center items-center">
-            <FaSpinner className="animate-spin text-blue-500 text-3xl" />
-            <h2 className="ml-2 text-xl text-blue-500">Loading SNPs...</h2>
+            <FaSpinner className="animate-spin text-green-600 text-3xl" />
+            <h2 className="ml-2 text-xl text-green-600">Loading SNPs...</h2>
           </div>
         )}
 
@@ -62,14 +62,14 @@ export default function Search() {
 
         {/* Exibição dos resultados */}
         {results.length > 0 && (
-          <div className="mt-6 space-y-6">
+          <div className=" mt-6 space-y-6">
             <h2 className="text-2xl font-semibold mb-4">SNP IDs found:</h2>
-            <ul className="space-y-4">
+            <ul className="flex flex-col pl-8 space-y-6">
               {results.map((item, index) => (
                 <li key={index}>
                   <Link
                     href={`/snp/${item.snp_id}`}
-                    className="text-xl text-blue-700 font-semibold hover:underline"
+                    className="text-xl  text-blue-700 font-semibold hover:underline"
                   >
                     {item.snp_id}
                   </Link>
@@ -82,19 +82,21 @@ export default function Search() {
                       {item.chromossome_number}
                     </p>
                     <div className="flex">
-                      <p className="text-gray-900 text-base mt-2">
-                        <span className="font-bold">HGVS</span>:{" "}
-                      </p>
                       {item.mutations.genomics.length > 0 && (
-                        <div className="pl-2 mt-2">
-                          {item.mutations.genomics.map((genomic, idx) => (
-                            <div key={idx} className="flex">
-                              <p className="text-gray-900 text-base">
-                                {genomic.id}
-                              </p>
-                              <p>{genomic.mutation}</p>
-                            </div>
-                          ))}
+                        <div className="flex">
+                          <p className="text-gray-900 text-base mt-2">
+                            <span className="font-bold">HGVS</span>:{" "}
+                          </p>
+                          <div className="pl-2 mt-2">
+                            {item.mutations.genomics.map((genomic, idx) => (
+                              <div key={idx} className="flex">
+                                <p className="text-gray-900 text-base">
+                                  {genomic.id}
+                                </p>
+                                <p>{genomic.mutation}</p>
+                              </div>
+                            ))}
+                          </div>
                         </div>
                       )}
                     </div>
