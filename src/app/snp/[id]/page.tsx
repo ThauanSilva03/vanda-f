@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { getFastAPI } from "@/api/fastAPI";
 import { useParams } from "next/navigation";
 import { LiaSpinnerSolid } from "react-icons/lia";
+import { AlertTriangle } from "lucide-react";
 
 // Tipos para o retorno das publicações
 interface Article {
@@ -23,11 +24,13 @@ export default function SNPDetailPage() {
   const [result, setResult] = useState<any | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [notFound, setNotFound] = useState(false);
 
   const fetchSNP = async () => {
     setLoading(true);
     setError(null);
     setResult(null);
+    setNotFound(false);
 
     try {
       const api = getFastAPI();
@@ -35,10 +38,20 @@ export default function SNPDetailPage() {
         baseURL: "http://computacao.unir.br/vanda/api",
       });
 
-      setResult(response.data);
+      // Check if the response is empty or indicates no data
+      if (
+        !response.data ||
+        (response.data.topics && Object.keys(response.data.topics).length === 0)
+      ) {
+        setNotFound(true);
+      } else {
+        setResult(response.data);
+      }
     } catch (err: any) {
       console.error("Erro ao carregar SNP:", err);
-      setError(err.message || "Erro ao carregar os dados");
+
+      // Treat network errors or 404 as "not found"
+      setNotFound(true);
     } finally {
       setLoading(false);
     }
@@ -50,6 +63,34 @@ export default function SNPDetailPage() {
     }
   }, [id]);
 
+  // Render SNP not found message
+  if (notFound) {
+    return (
+      <>
+        <Header />
+        <div className="max-w-6xl p-4 mx-auto flex flex-col items-center justify-center min-h-[calc(100vh-200px)]">
+          <div className="text-center">
+            <AlertTriangle className="mx-auto mb-4 text-yellow-500" size={64} />
+            <h2 className="text-3xl font-bold text-gray-800 mb-4">
+              SNP Not Found
+            </h2>
+            <p className="text-xl text-gray-600 mb-6">
+              The SNP "{id}" could not be found in our database.
+            </p>
+            <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 rounded">
+              <p className="text-yellow-700 mb-2">Possible reasons:</p>
+              <ul className="list-disc list-inside text-left text-yellow-700">
+                <li>Incorrect SNP ID</li>
+                <li>SNP not in our current database</li>
+                <li>Typo in the SNP identifier</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </>
+    );
+  }
+
   return (
     <>
       <Header />
@@ -60,7 +101,13 @@ export default function SNPDetailPage() {
             <h2 className="ml-2 text-xl text-green-600">Loading articles...</h2>
           </div>
         )}
-        {error && <h2 className="text-center text-red-600 mt-4">{error}</h2>}
+
+        {error && (
+          <div className="text-center mt-4">
+            <h2 className="text-red-600 text-xl">{error}</h2>
+            <p className="text-gray-600 mt-2">Please try again later.</p>
+          </div>
+        )}
 
         {result?.topics && (
           <div className="space-y-6">

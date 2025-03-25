@@ -4,7 +4,6 @@ import { Search } from "lucide-react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
-// import { useRouter } from "next/navigation";
 import { FaGithub } from "react-icons/fa";
 
 export default function Home() {
@@ -13,7 +12,8 @@ export default function Home() {
 
   const handleSearch = () => {
     if (!query.trim()) return;
-    router.push(`/search?query=${encodeURIComponent(query)}`);
+    // Directly navigate to SNP details if the query looks like an SNP ID
+    router.push(`/snp/${encodeURIComponent(query)}`);
   };
   return (
     <div>

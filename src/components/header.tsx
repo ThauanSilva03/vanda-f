@@ -11,7 +11,8 @@ export default function Header() {
 
   const handleSearch = () => {
     if (!query.trim()) return;
-    router.push(`/search?query=${encodeURIComponent(query)}`);
+    // Directly navigate to SNP details if the query looks like an SNP ID
+    router.push(`/snp/${encodeURIComponent(query)}`);
   };
 
   return (
