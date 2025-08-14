@@ -23,7 +23,7 @@ export default function ResultPage() {
     try {
       // A API que você está utilizando
       const response = await fetch(
-        `http://computacao.unir.br/vanda/api/gene/${query}`
+        `http://0.0.0.0:8000/api/gene/${query}`
       );
       const data = await response.json();
       setResults(data);

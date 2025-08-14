@@ -1,3 +1,4 @@
+
 "use client";
 import Header from "@/components/header";
 import { useEffect, useState } from "react";
@@ -35,11 +36,11 @@ export default function SNPDetailPage() {
     try {
       const api = getFastAPI();
       const response = await api.snpPageSnpSnpIdGet(id, {
-        baseURL: "http://computacao.unir.br/vanda/api",
+        baseURL: "http://0.0.0.0:8000/api",
       });
 
       // Check if the response is empty or indicates no data
-      if (
+    if (
         !response.data ||
         (response.data.topics && Object.keys(response.data.topics).length === 0)
       ) {

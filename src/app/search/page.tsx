@@ -26,7 +26,7 @@ export default function Search() {
       const response = await searchSearchGet(
         { query },
         {
-          baseURL: "http://computacao.unir.br/vanda/api",
+          baseURL: "http://0.0.0.0:8000/api",
         }
       );
       setResults(response.data.items || []);

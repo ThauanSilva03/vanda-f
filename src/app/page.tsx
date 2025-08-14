@@ -81,7 +81,7 @@ export default function Home() {
           {/* About section */}
           <div className="flex-grow">
             <h1 className="font-bold text-3xl py-6">About the plataform</h1>
-            <p className="font-semibold text-xl text-justify">
+            <p className="font-normal text-xl text-justify">
               VANDA is a web platform designed for the analysis and exploration
               of nutrigenetic data. By linking genetic variations (SNPs) to
               pathologies, it assists researchers and healthcare professionals
@@ -108,7 +108,7 @@ export default function Home() {
                 />
               </a>
             </div>
-            <p className="font-semibold text-xl text-justify">
+            <p className="font-normal text-xl text-justify">
               The NCBI (National Center for Biotechnology Information) is part
               of the U.S. National Institutes of Health (NIH), focused on
               biotechnology and bioinformatics. It provides a wide range of
@@ -133,7 +133,7 @@ export default function Home() {
                 />
               </a>
             </div>
-            <p className="font-semibold text-xl text-justify">
+            <p className="font-normal text-xl text-justify">
               GeneCards is a searchable, integrative database that provides
               comprehensive, user-friendly information on all annotated and
               predicted human genes. The knowledgebase automatically integrates

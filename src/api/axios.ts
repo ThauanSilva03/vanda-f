@@ -1,5 +1,5 @@
 import axios from "axios";
 
 export const apiClient = axios.create({
-  baseURL: "http://computacao.unir.br/vanda/api",
+  baseURL: "http://0.0.0.0:8000/api",
 });

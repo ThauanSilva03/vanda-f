@@ -1,0 +1,201 @@
+SNP_ID,NC_,NM_,NP_,NG_,CHR,HGVSc,HGVSp,GENE,DISEASE,FOOD,IMPACT,ABSTRACT
+rs364912,NC_577501.3,NM_697551.5,NP_708834.3,NG_208487.9,Y,c.385A>G,p.Val285Arg,CFTR,Cystic Fibrosis,Broccoli,High,Variant in CFTR associated with increased risk of Diabetes when consuming Broccoli.
+rs657587,NC_253411.4,NM_758746.1,NP_364248.9,NG_967851.6,15,c.324A>G,p.Gly186Arg,APOE,Cystic Fibrosis,Yogurt,Moderate,Variant in APOE associated with increased risk of Alzheimer when consuming Salmon.
+rs488553,NC_724494.8,NM_746638.2,NP_502813.8,NG_724545.3,1,c.672A>G,p.Val54Arg,BRCA1,Asthma,Tomato,High,Variant in BRCA1 associated with increased risk of Diabetes when consuming Blueberries.
+rs510882,NC_929280.9,NM_945049.6,NP_233951.1,NG_820506.5,13,c.695A>G,p.Val221Arg,TP53,Diabetes,Tomato,Modifier,Variant in TP53 associated with increased risk of Alzheimer when consuming Tomato.
+rs517793,NC_447948.9,NM_192264.4,NP_417170.8,NG_816812.5,22,c.894A>G,p.Val30Ser,CFTR,Alzheimer,Tomato,Low,Variant in CFTR associated with increased risk of Cystic Fibrosis when consuming Broccoli.
+rs555452,NC_158957.3,NM_637271.2,NP_149673.4,NG_153362.9,4,c.710A>G,p.Leu174Ser,APOE,Asthma,Tomato,Modifier,Variant in APOE associated with increased risk of Asthma when consuming Salmon.
+rs409853,NC_522946.3,NM_366380.5,NP_348849.9,NG_798868.3,20,c.912A>G,p.Gly272Arg,TP53,Cancer,Blueberries,High,Variant in TP53 associated with increased risk of Asthma when consuming Broccoli.
+rs851281,NC_568358.5,NM_140526.3,NP_255351.1,NG_655036.7,4,c.206A>G,p.Leu182Ser,CFTR,Alzheimer,Blueberries,Moderate,Variant in CFTR associated with increased risk of Alzheimer when consuming Blueberries.
+rs587851,NC_206697.3,NM_413170.1,NP_552003.8,NG_161329.1,4,c.959A>G,p.Leu24Thr,APOE,Cancer,Tomato,Low,Variant in APOE associated with increased risk of Alzheimer when consuming Yogurt.
+rs200057,NC_321031.2,NM_457333.6,NP_120636.6,NG_332468.9,7,c.715A>G,p.Gly105Arg,EGFR,Cystic Fibrosis,Salmon,High,Variant in EGFR associated with increased risk of Cancer when consuming Salmon.
+rs843139,NC_998917.8,NM_238529.4,NP_346893.5,NG_456070.6,13,c.283A>G,p.Val26Thr,EGFR,Asthma,Tomato,High,Variant in EGFR associated with increased risk of Asthma when consuming Salmon.
+rs735607,NC_536891.9,NM_199218.8,NP_899208.5,NG_963151.3,3,c.476A>G,p.Val197Ser,BRCA1,Asthma,Yogurt,High,Variant in BRCA1 associated with increased risk of Asthma when consuming Tomato.
+rs952455,NC_745636.9,NM_863302.6,NP_844605.7,NG_403677.8,15,c.626A>G,p.Val285Arg,BRCA1,Asthma,Broccoli,High,Variant in BRCA1 associated with increased risk of Alzheimer when consuming Salmon.
+rs410019,NC_652963.2,NM_450479.6,NP_777027.1,NG_947204.4,5,c.668A>G,p.Gly256Arg,EGFR,Asthma,Blueberries,High,Variant in EGFR associated with increased risk of Cystic Fibrosis when consuming Salmon.
+rs883748,NC_628885.4,NM_784029.1,NP_601476.3,NG_603199.5,18,c.820A>G,p.Gly33Arg,BRCA1,Diabetes,Broccoli,Moderate,Variant in BRCA1 associated with increased risk of Cystic Fibrosis when consuming Yogurt.
+rs482791,NC_418911.9,NM_855798.6,NP_693929.5,NG_397283.9,15,c.480A>G,p.Leu220Arg,APOE,Diabetes,Salmon,High,Variant in APOE associated with increased risk of Alzheimer when consuming Salmon.
+rs417573,NC_492768.2,NM_450323.8,NP_697369.3,NG_336123.6,Y,c.111A>G,p.Leu290Ser,TP53,Cystic Fibrosis,Broccoli,Modifier,Variant in TP53 associated with increased risk of Diabetes when consuming Broccoli.
+rs765888,NC_521046.6,NM_546042.9,NP_182793.7,NG_356883.1,17,c.645A>G,p.Val5Thr,BRCA1,Diabetes,Salmon,Modifier,Variant in BRCA1 associated with increased risk of Alzheimer when consuming Salmon.
+rs988739,NC_890658.2,NM_489576.8,NP_324715.1,NG_605576.1,21,c.581A>G,p.Val207Thr,CFTR,Cancer,Yogurt,Modifier,Variant in CFTR associated with increased risk of Asthma when consuming Tomato.
+rs790199,NC_561934.8,NM_206331.1,NP_173740.9,NG_212341.3,19,c.118A>G,p.Leu14Thr,BRCA1,Cancer,Broccoli,High,Variant in BRCA1 associated with increased risk of Cancer when consuming Blueberries.
+rs868549,NC_367269.7,NM_806612.9,NP_886815.1,NG_527346.5,7,c.385A>G,p.Val181Arg,BRCA1,Diabetes,Tomato,Low,Variant in BRCA1 associated with increased risk of Cystic Fibrosis when consuming Blueberries.
+rs635666,NC_436664.6,NM_249897.5,NP_786214.5,NG_785816.3,5,c.161A>G,p.Leu271Arg,APOE,Cystic Fibrosis,Yogurt,Moderate,Variant in APOE associated with increased risk of Diabetes when consuming Yogurt.
+rs460657,NC_527899.8,NM_137556.8,NP_239723.3,NG_275351.4,19,c.51A>G,p.Gly125Thr,CFTR,Cystic Fibrosis,Yogurt,Moderate,Variant in CFTR associated with increased risk of Diabetes when consuming Salmon.
+rs421913,NC_850590.9,NM_235710.6,NP_674815.5,NG_822581.4,15,c.819A>G,p.Leu101Thr,APOE,Cystic Fibrosis,Broccoli,Low,Variant in APOE associated with increased risk of Cystic Fibrosis when consuming Yogurt.
+rs234877,NC_587262.4,NM_950064.5,NP_231727.7,NG_871079.4,4,c.115A>G,p.Gly216Thr,BRCA1,Asthma,Broccoli,Low,Variant in BRCA1 associated with increased risk of Cancer when consuming Tomato.
+rs935011,NC_856122.5,NM_241015.7,NP_761347.2,NG_895249.4,18,c.341A>G,p.Gly230Thr,TP53,Cancer,Yogurt,Moderate,Variant in TP53 associated with increased risk of Cystic Fibrosis when consuming Yogurt.
+rs430831,NC_131260.2,NM_480178.4,NP_608428.6,NG_379018.7,9,c.598A>G,p.Leu114Thr,CFTR,Alzheimer,Broccoli,High,Variant in CFTR associated with increased risk of Diabetes when consuming Yogurt.
+rs242544,NC_411799.8,NM_356837.8,NP_425676.5,NG_594633.2,19,c.62A>G,p.Gly51Thr,CFTR,Cancer,Yogurt,Low,Variant in CFTR associated with increased risk of Asthma when consuming Salmon.
+rs573688,NC_769452.3,NM_710041.6,NP_454149.6,NG_357133.3,14,c.849A>G,p.Gly73Arg,BRCA1,Diabetes,Salmon,Modifier,Variant in BRCA1 associated with increased risk of Cancer when consuming Salmon.
+rs292253,NC_316126.4,NM_786175.4,NP_979498.7,NG_169318.2,16,c.625A>G,p.Gly215Arg,EGFR,Cancer,Salmon,Modifier,Variant in EGFR associated with increased risk of Diabetes when consuming Tomato.
+rs724731,NC_118754.5,NM_250905.5,NP_177903.3,NG_180140.4,17,c.911A>G,p.Val250Ser,TP53,Cystic Fibrosis,Blueberries,High,Variant in TP53 associated with increased risk of Cancer when consuming Broccoli.
+rs500530,NC_769235.3,NM_551468.3,NP_645058.5,NG_456973.5,22,c.655A>G,p.Val249Arg,APOE,Cystic Fibrosis,Yogurt,High,Variant in APOE associated with increased risk of Diabetes when consuming Yogurt.
+rs147386,NC_866154.5,NM_754374.8,NP_268884.9,NG_167966.2,2,c.817A>G,p.Val194Arg,EGFR,Diabetes,Broccoli,Low,Variant in EGFR associated with increased risk of Cancer when consuming Blueberries.
+rs209654,NC_374635.9,NM_666706.4,NP_679428.5,NG_480288.7,4,c.368A>G,p.Val216Ser,BRCA1,Asthma,Yogurt,Moderate,Variant in BRCA1 associated with increased risk of Diabetes when consuming Salmon.
+rs815347,NC_267951.9,NM_113805.9,NP_203324.4,NG_751713.3,3,c.785A>G,p.Gly242Thr,CFTR,Cystic Fibrosis,Yogurt,Moderate,Variant in CFTR associated with increased risk of Asthma when consuming Yogurt.
+rs466716,NC_134591.4,NM_190702.7,NP_846090.8,NG_946064.8,3,c.146A>G,p.Val247Arg,BRCA1,Cystic Fibrosis,Salmon,Low,Variant in BRCA1 associated with increased risk of Diabetes when consuming Salmon.
+rs346505,NC_375229.5,NM_182679.7,NP_312197.6,NG_626256.8,10,c.693A>G,p.Gly253Thr,CFTR,Asthma,Salmon,High,Variant in CFTR associated with increased risk of Alzheimer when consuming Salmon.
+rs875054,NC_117053.8,NM_229681.6,NP_328771.7,NG_991261.3,3,c.284A>G,p.Gly53Ser,EGFR,Asthma,Tomato,High,Variant in EGFR associated with increased risk of Diabetes when consuming Broccoli.
+rs970935,NC_216505.3,NM_952880.1,NP_839209.7,NG_771433.5,21,c.102A>G,p.Gly273Arg,EGFR,Diabetes,Blueberries,High,Variant in EGFR associated with increased risk of Cancer when consuming Blueberries.
+rs942859,NC_864830.5,NM_303105.4,NP_213845.6,NG_152146.6,6,c.99A>G,p.Gly254Thr,TP53,Cancer,Broccoli,Low,Variant in TP53 associated with increased risk of Cystic Fibrosis when consuming Blueberries.
+rs588737,NC_473371.2,NM_528406.5,NP_267548.4,NG_856546.4,9,c.501A>G,p.Gly245Ser,EGFR,Alzheimer,Tomato,Moderate,Variant in EGFR associated with increased risk of Asthma when consuming Tomato.
+rs139565,NC_395972.4,NM_695121.9,NP_998480.9,NG_658809.8,15,c.633A>G,p.Gly168Thr,EGFR,Diabetes,Yogurt,High,Variant in EGFR associated with increased risk of Diabetes when consuming Broccoli.
+rs939797,NC_271277.3,NM_990315.8,NP_169169.4,NG_865742.6,X,c.895A>G,p.Leu176Ser,CFTR,Cancer,Salmon,Modifier,Variant in CFTR associated with increased risk of Cancer when consuming Salmon.
+rs838705,NC_286484.7,NM_596218.8,NP_108876.2,NG_919569.8,14,c.225A>G,p.Val52Ser,APOE,Cystic Fibrosis,Blueberries,Moderate,Variant in APOE associated with increased risk of Diabetes when consuming Salmon.
+rs558695,NC_737325.9,NM_252356.2,NP_133846.7,NG_477914.4,6,c.285A>G,p.Leu298Thr,CFTR,Cystic Fibrosis,Tomato,High,Variant in CFTR associated with increased risk of Cancer when consuming Tomato.
+rs630472,NC_838127.3,NM_369053.8,NP_849004.3,NG_243983.5,15,c.931A>G,p.Val257Arg,EGFR,Cystic Fibrosis,Tomato,Moderate,Variant in EGFR associated with increased risk of Asthma when consuming Blueberries.
+rs583725,NC_442147.6,NM_241428.5,NP_455449.9,NG_115637.6,7,c.31A>G,p.Val78Thr,CFTR,Cancer,Broccoli,Moderate,Variant in CFTR associated with increased risk of Cancer when consuming Yogurt.
+rs895492,NC_770042.7,NM_197803.5,NP_450150.3,NG_503642.8,22,c.806A>G,p.Leu234Thr,EGFR,Diabetes,Salmon,Low,Variant in EGFR associated with increased risk of Cancer when consuming Yogurt.
+rs491079,NC_796952.4,NM_267131.4,NP_627539.2,NG_632077.6,14,c.289A>G,p.Leu13Arg,APOE,Asthma,Yogurt,Moderate,Variant in APOE associated with increased risk of Cystic Fibrosis when consuming Salmon.
+rs113176,NC_626212.1,NM_824042.3,NP_122500.2,NG_837057.3,1,c.262A>G,p.Leu250Arg,BRCA1,Cancer,Broccoli,Moderate,Variant in BRCA1 associated with increased risk of Alzheimer when consuming Tomato.
+rs812365,NC_230982.3,NM_608154.9,NP_336132.4,NG_474251.9,12,c.378A>G,p.Leu189Thr,CFTR,Alzheimer,Tomato,Moderate,Variant in CFTR associated with increased risk of Alzheimer when consuming Broccoli.
+rs310329,NC_758211.8,NM_688720.2,NP_701480.1,NG_245674.4,7,c.442A>G,p.Leu217Arg,CFTR,Asthma,Broccoli,Moderate,Variant in CFTR associated with increased risk of Asthma when consuming Blueberries.
+rs198289,NC_553474.8,NM_602985.3,NP_812225.5,NG_851309.2,Y,c.293A>G,p.Val73Ser,BRCA1,Cancer,Yogurt,Moderate,Variant in BRCA1 associated with increased risk of Diabetes when consuming Broccoli.
+rs518646,NC_542691.2,NM_278398.5,NP_987836.8,NG_842687.2,8,c.970A>G,p.Gly44Thr,TP53,Alzheimer,Broccoli,Modifier,Variant in TP53 associated with increased risk of Diabetes when consuming Broccoli.
+rs461560,NC_155375.1,NM_196252.4,NP_510516.1,NG_175577.6,12,c.201A>G,p.Val153Thr,TP53,Cystic Fibrosis,Tomato,Moderate,Variant in TP53 associated with increased risk of Alzheimer when consuming Tomato.
+rs959570,NC_525754.5,NM_577515.6,NP_655498.8,NG_228803.1,10,c.233A>G,p.Leu295Arg,CFTR,Cystic Fibrosis,Tomato,Moderate,Variant in CFTR associated with increased risk of Alzheimer when consuming Tomato.
+rs240201,NC_351030.7,NM_383333.7,NP_652660.3,NG_820477.8,16,c.961A>G,p.Gly162Arg,EGFR,Diabetes,Broccoli,Modifier,Variant in EGFR associated with increased risk of Diabetes when consuming Tomato.
+rs257755,NC_735627.7,NM_769805.2,NP_777356.9,NG_719944.8,17,c.261A>G,p.Leu165Ser,EGFR,Asthma,Salmon,Modifier,Variant in EGFR associated with increased risk of Asthma when consuming Yogurt.
+rs407597,NC_440059.7,NM_557497.4,NP_402578.8,NG_846820.4,Y,c.349A>G,p.Val235Arg,CFTR,Alzheimer,Blueberries,Modifier,Variant in CFTR associated with increased risk of Alzheimer when consuming Blueberries.
+rs457834,NC_695294.9,NM_403223.4,NP_705606.6,NG_162819.6,5,c.437A>G,p.Leu28Arg,CFTR,Alzheimer,Blueberries,Modifier,Variant in CFTR associated with increased risk of Alzheimer when consuming Yogurt.
+rs799143,NC_285921.5,NM_394056.8,NP_477988.2,NG_893506.7,20,c.996A>G,p.Val86Arg,BRCA1,Cancer,Blueberries,Moderate,Variant in BRCA1 associated with increased risk of Asthma when consuming Yogurt.
+rs627971,NC_669829.6,NM_308882.8,NP_682240.4,NG_746104.1,10,c.864A>G,p.Val234Thr,APOE,Cystic Fibrosis,Salmon,Moderate,Variant in APOE associated with increased risk of Diabetes when consuming Salmon.
+rs744660,NC_674845.7,NM_700350.9,NP_640098.7,NG_783749.3,19,c.7A>G,p.Val212Thr,APOE,Asthma,Yogurt,High,Variant in APOE associated with increased risk of Cystic Fibrosis when consuming Yogurt.
+rs922485,NC_994908.1,NM_363757.6,NP_600265.1,NG_811816.6,5,c.162A>G,p.Leu157Thr,EGFR,Alzheimer,Blueberries,High,Variant in EGFR associated with increased risk of Diabetes when consuming Salmon.
+rs743404,NC_636302.4,NM_393557.3,NP_828659.9,NG_324606.8,17,c.384A>G,p.Leu3Arg,APOE,Asthma,Yogurt,Modifier,Variant in APOE associated with increased risk of Diabetes when consuming Broccoli.
+rs815689,NC_695532.7,NM_980776.8,NP_278056.3,NG_846804.7,19,c.617A>G,p.Leu40Ser,APOE,Cystic Fibrosis,Broccoli,Moderate,Variant in APOE associated with increased risk of Diabetes when consuming Yogurt.
+rs470741,NC_835958.4,NM_734066.9,NP_932483.4,NG_710804.4,18,c.637A>G,p.Leu3Thr,BRCA1,Diabetes,Blueberries,Moderate,Variant in BRCA1 associated with increased risk of Diabetes when consuming Yogurt.
+rs892333,NC_914419.8,NM_473049.4,NP_347901.1,NG_460625.7,20,c.233A>G,p.Gly78Thr,EGFR,Alzheimer,Broccoli,High,Variant in EGFR associated with increased risk of Cystic Fibrosis when consuming Broccoli.
+rs965939,NC_317646.9,NM_408514.2,NP_248143.3,NG_316242.5,10,c.782A>G,p.Val243Arg,TP53,Cancer,Blueberries,Modifier,Variant in TP53 associated with increased risk of Cancer when consuming Tomato.
+rs794064,NC_504080.1,NM_325036.2,NP_516981.3,NG_729089.5,2,c.410A>G,p.Leu186Thr,TP53,Cystic Fibrosis,Tomato,Modifier,Variant in TP53 associated with increased risk of Asthma when consuming Blueberries.
+rs814313,NC_627522.5,NM_239031.9,NP_645313.2,NG_853096.9,16,c.262A>G,p.Val212Ser,TP53,Diabetes,Salmon,Moderate,Variant in TP53 associated with increased risk of Asthma when consuming Salmon.
+rs310580,NC_882826.7,NM_108202.1,NP_352435.9,NG_642860.4,14,c.78A>G,p.Leu53Arg,CFTR,Asthma,Blueberries,Low,Variant in CFTR associated with increased risk of Cystic Fibrosis when consuming Tomato.
+rs409367,NC_445635.4,NM_690430.6,NP_339778.6,NG_204209.7,4,c.362A>G,p.Val245Arg,TP53,Diabetes,Blueberries,Moderate,Variant in TP53 associated with increased risk of Cancer when consuming Blueberries.
+rs363419,NC_353227.6,NM_104299.5,NP_217317.8,NG_844804.6,22,c.567A>G,p.Gly262Ser,EGFR,Alzheimer,Yogurt,Modifier,Variant in EGFR associated with increased risk of Cystic Fibrosis when consuming Broccoli.
+rs228305,NC_478016.4,NM_731641.7,NP_483383.2,NG_856887.8,15,c.220A>G,p.Gly298Arg,BRCA1,Cystic Fibrosis,Broccoli,Low,Variant in BRCA1 associated with increased risk of Diabetes when consuming Broccoli.
+rs503150,NC_128418.4,NM_175975.2,NP_191631.6,NG_463521.8,19,c.43A>G,p.Val7Thr,TP53,Asthma,Blueberries,Low,Variant in TP53 associated with increased risk of Alzheimer when consuming Salmon.
+rs578463,NC_848693.4,NM_858240.7,NP_107816.7,NG_160770.2,18,c.181A>G,p.Val79Ser,TP53,Asthma,Blueberries,Moderate,Variant in TP53 associated with increased risk of Alzheimer when consuming Yogurt.
+rs784072,NC_877865.4,NM_265748.6,NP_503808.3,NG_341715.7,8,c.9A>G,p.Gly132Thr,CFTR,Cancer,Yogurt,Low,Variant in CFTR associated with increased risk of Diabetes when consuming Salmon.
+rs609809,NC_269418.3,NM_967632.2,NP_557693.5,NG_979694.1,13,c.816A>G,p.Val176Ser,CFTR,Asthma,Yogurt,Low,Variant in CFTR associated with increased risk of Asthma when consuming Blueberries.
+rs989585,NC_306599.9,NM_979946.7,NP_431435.3,NG_167363.3,9,c.59A>G,p.Leu194Thr,BRCA1,Diabetes,Blueberries,High,Variant in BRCA1 associated with increased risk of Alzheimer when consuming Broccoli.
+rs208145,NC_636166.8,NM_358906.1,NP_804346.5,NG_233676.2,1,c.154A>G,p.Val84Thr,CFTR,Cystic Fibrosis,Yogurt,Modifier,Variant in CFTR associated with increased risk of Cystic Fibrosis when consuming Blueberries.
+rs661680,NC_588725.7,NM_776754.5,NP_163716.9,NG_729598.4,19,c.802A>G,p.Leu181Ser,APOE,Cancer,Blueberries,Modifier,Variant in APOE associated with increased risk of Cancer when consuming Blueberries.
+rs817001,NC_151771.9,NM_695306.1,NP_293462.9,NG_657331.1,9,c.418A>G,p.Leu78Thr,TP53,Alzheimer,Blueberries,Modifier,Variant in TP53 associated with increased risk of Alzheimer when consuming Tomato.
+rs828508,NC_510838.4,NM_115979.4,NP_631133.1,NG_540270.6,9,c.666A>G,p.Leu210Arg,TP53,Asthma,Tomato,Moderate,Variant in TP53 associated with increased risk of Cystic Fibrosis when consuming Blueberries.
+rs204934,NC_924893.4,NM_773141.2,NP_150703.8,NG_993366.9,3,c.176A>G,p.Leu84Ser,BRCA1,Asthma,Salmon,Low,Variant in BRCA1 associated with increased risk of Diabetes when consuming Blueberries.
+rs181180,NC_283347.6,NM_532827.7,NP_919479.1,NG_957771.2,4,c.587A>G,p.Val28Ser,EGFR,Cystic Fibrosis,Blueberries,Moderate,Variant in EGFR associated with increased risk of Cancer when consuming Salmon.
+rs605076,NC_789000.4,NM_694322.1,NP_679597.1,NG_114459.6,2,c.708A>G,p.Leu76Thr,APOE,Cystic Fibrosis,Broccoli,Modifier,Variant in APOE associated with increased risk of Alzheimer when consuming Broccoli.
+rs983595,NC_821301.6,NM_693753.3,NP_938510.6,NG_158687.5,15,c.536A>G,p.Leu180Ser,TP53,Cystic Fibrosis,Blueberries,Moderate,Variant in TP53 associated with increased risk of Alzheimer when consuming Blueberries.
+rs400161,NC_393537.1,NM_299477.8,NP_761556.8,NG_626341.5,15,c.743A>G,p.Gly182Thr,BRCA1,Cystic Fibrosis,Salmon,High,Variant in BRCA1 associated with increased risk of Diabetes when consuming Blueberries.
+rs522038,NC_575537.6,NM_167354.1,NP_811674.8,NG_156998.9,11,c.649A>G,p.Val205Thr,BRCA1,Cystic Fibrosis,Tomato,Moderate,Variant in BRCA1 associated with increased risk of Cystic Fibrosis when consuming Broccoli.
+rs405021,NC_226388.9,NM_459678.7,NP_925942.2,NG_531630.1,11,c.678A>G,p.Leu143Ser,TP53,Diabetes,Broccoli,Modifier,Variant in TP53 associated with increased risk of Alzheimer when consuming Blueberries.
+rs378017,NC_834134.9,NM_464405.5,NP_923756.4,NG_881335.7,6,c.628A>G,p.Leu95Ser,EGFR,Cystic Fibrosis,Tomato,Modifier,Variant in EGFR associated with increased risk of Cystic Fibrosis when consuming Blueberries.
+rs153329,NC_213621.7,NM_267122.7,NP_772368.2,NG_929962.8,Y,c.392A>G,p.Gly166Ser,TP53,Diabetes,Salmon,Low,Variant in TP53 associated with increased risk of Cystic Fibrosis when consuming Salmon.
+rs149670,NC_306693.6,NM_136135.9,NP_413212.6,NG_738074.6,17,c.574A>G,p.Gly61Ser,BRCA1,Cancer,Blueberries,High,Variant in BRCA1 associated with increased risk of Cancer when consuming Salmon.
+rs965014,NC_118195.4,NM_795455.1,NP_603157.1,NG_349613.6,21,c.322A>G,p.Gly246Thr,BRCA1,Diabetes,Tomato,Moderate,Variant in BRCA1 associated with increased risk of Alzheimer when consuming Broccoli.
+rs332868,NC_626822.2,NM_644619.8,NP_719798.6,NG_114331.3,7,c.117A>G,p.Val241Arg,BRCA1,Cancer,Broccoli,High,Variant in BRCA1 associated with increased risk of Cancer when consuming Salmon.
+rs724235,NC_465704.3,NM_425273.3,NP_220040.8,NG_711613.2,6,c.591A>G,p.Val173Thr,BRCA1,Alzheimer,Tomato,Low,Variant in BRCA1 associated with increased risk of Cystic Fibrosis when consuming Blueberries.
+rs214304,NC_207932.2,NM_586730.1,NP_424090.6,NG_784255.5,2,c.841A>G,p.Leu143Arg,TP53,Asthma,Tomato,Low,Variant in TP53 associated with increased risk of Cystic Fibrosis when consuming Salmon.
+rs878700,NC_268985.2,NM_122482.5,NP_555993.6,NG_536511.3,15,c.423A>G,p.Val266Thr,BRCA1,Cancer,Salmon,High,Variant in BRCA1 associated with increased risk of Cystic Fibrosis when consuming Yogurt.
+rs205874,NC_988699.1,NM_915779.9,NP_510702.8,NG_658469.4,15,c.530A>G,p.Val24Thr,TP53,Cancer,Salmon,Modifier,Variant in TP53 associated with increased risk of Alzheimer when consuming Broccoli.
+rs670121,NC_688178.9,NM_230500.8,NP_896278.2,NG_623191.1,12,c.332A>G,p.Val222Ser,EGFR,Asthma,Yogurt,Modifier,Variant in EGFR associated with increased risk of Alzheimer when consuming Salmon.
+rs142390,NC_299716.5,NM_315175.6,NP_411989.1,NG_301796.9,5,c.450A>G,p.Gly260Thr,BRCA1,Alzheimer,Blueberries,Modifier,Variant in BRCA1 associated with increased risk of Cancer when consuming Blueberries.
+rs436419,NC_776280.3,NM_244968.6,NP_753377.7,NG_635071.2,17,c.676A>G,p.Gly208Thr,TP53,Cancer,Blueberries,Low,Variant in TP53 associated with increased risk of Alzheimer when consuming Broccoli.
+rs929910,NC_826537.7,NM_690326.1,NP_941052.9,NG_594644.3,4,c.339A>G,p.Leu247Thr,BRCA1,Asthma,Yogurt,Moderate,Variant in BRCA1 associated with increased risk of Asthma when consuming Broccoli.
+rs199483,NC_359544.6,NM_848360.4,NP_917457.2,NG_423716.7,18,c.102A>G,p.Gly40Ser,TP53,Alzheimer,Tomato,Low,Variant in TP53 associated with increased risk of Cancer when consuming Blueberries.
+rs184556,NC_484487.6,NM_494067.2,NP_700160.9,NG_960546.6,14,c.839A>G,p.Leu49Thr,TP53,Cystic Fibrosis,Blueberries,Low,Variant in TP53 associated with increased risk of Alzheimer when consuming Broccoli.
+rs392065,NC_910384.7,NM_423094.2,NP_982702.7,NG_654335.2,4,c.868A>G,p.Gly54Thr,EGFR,Cancer,Blueberries,Modifier,Variant in EGFR associated with increased risk of Alzheimer when consuming Salmon.
+rs799587,NC_482658.8,NM_473776.9,NP_418173.5,NG_226969.3,21,c.558A>G,p.Val292Ser,EGFR,Asthma,Blueberries,Modifier,Variant in EGFR associated with increased risk of Diabetes when consuming Yogurt.
+rs100829,NC_178168.8,NM_430483.3,NP_645823.1,NG_831615.5,14,c.576A>G,p.Gly190Thr,EGFR,Asthma,Blueberries,Low,Variant in EGFR associated with increased risk of Alzheimer when consuming Blueberries.
+rs548434,NC_456643.2,NM_961762.9,NP_722693.9,NG_753096.7,5,c.753A>G,p.Val65Arg,APOE,Alzheimer,Tomato,Modifier,Variant in APOE associated with increased risk of Diabetes when consuming Yogurt.
+rs186683,NC_792388.7,NM_685525.7,NP_843349.1,NG_601885.8,16,c.718A>G,p.Leu259Arg,BRCA1,Cancer,Yogurt,Modifier,Variant in BRCA1 associated with increased risk of Asthma when consuming Blueberries.
+rs493861,NC_477398.9,NM_451814.3,NP_726960.6,NG_453877.8,18,c.763A>G,p.Leu261Arg,CFTR,Alzheimer,Yogurt,Moderate,Variant in CFTR associated with increased risk of Cancer when consuming Salmon.
+rs235065,NC_425150.7,NM_354414.4,NP_909776.5,NG_277509.3,8,c.126A>G,p.Leu254Thr,EGFR,Cystic Fibrosis,Yogurt,Low,Variant in EGFR associated with increased risk of Diabetes when consuming Salmon.
+rs770855,NC_669881.2,NM_289949.4,NP_939981.1,NG_886286.4,19,c.388A>G,p.Val241Ser,CFTR,Asthma,Tomato,Low,Variant in CFTR associated with increased risk of Cancer when consuming Broccoli.
+rs362455,NC_457890.1,NM_899670.5,NP_739335.9,NG_256633.8,20,c.830A>G,p.Gly233Ser,EGFR,Alzheimer,Broccoli,Moderate,Variant in EGFR associated with increased risk of Cystic Fibrosis when consuming Yogurt.
+rs423913,NC_648400.7,NM_617503.9,NP_474707.2,NG_228340.6,17,c.957A>G,p.Val105Thr,CFTR,Asthma,Tomato,High,Variant in CFTR associated with increased risk of Alzheimer when consuming Blueberries.
+rs357356,NC_915496.5,NM_951260.3,NP_871037.3,NG_274219.2,5,c.699A>G,p.Val75Arg,CFTR,Asthma,Yogurt,Modifier,Variant in CFTR associated with increased risk of Cystic Fibrosis when consuming Salmon.
+rs831887,NC_634440.7,NM_995511.7,NP_295968.4,NG_717621.4,Y,c.608A>G,p.Val296Ser,APOE,Asthma,Tomato,Moderate,Variant in APOE associated with increased risk of Asthma when consuming Broccoli.
+rs313916,NC_151221.1,NM_793442.6,NP_358687.7,NG_938613.3,3,c.582A>G,p.Gly21Arg,APOE,Cystic Fibrosis,Salmon,Moderate,Variant in APOE associated with increased risk of Alzheimer when consuming Tomato.
+rs805115,NC_258288.7,NM_491663.6,NP_129519.6,NG_890369.7,21,c.99A>G,p.Leu223Ser,APOE,Diabetes,Broccoli,Low,Variant in APOE associated with increased risk of Asthma when consuming Blueberries.
+rs385603,NC_173384.9,NM_101007.4,NP_826847.1,NG_216292.4,12,c.933A>G,p.Gly205Ser,EGFR,Cancer,Tomato,Low,Variant in EGFR associated with increased risk of Cystic Fibrosis when consuming Blueberries.
+rs840149,NC_146785.3,NM_736667.6,NP_949328.4,NG_535081.8,7,c.903A>G,p.Gly217Thr,BRCA1,Diabetes,Tomato,High,Variant in BRCA1 associated with increased risk of Asthma when consuming Yogurt.
+rs991870,NC_891579.3,NM_293118.9,NP_741614.4,NG_699599.6,12,c.445A>G,p.Leu215Ser,APOE,Alzheimer,Salmon,Moderate,Variant in APOE associated with increased risk of Cystic Fibrosis when consuming Broccoli.
+rs335703,NC_856731.7,NM_220629.6,NP_540102.7,NG_843860.6,3,c.445A>G,p.Leu251Thr,CFTR,Asthma,Salmon,High,Variant in CFTR associated with increased risk of Diabetes when consuming Blueberries.
+rs227381,NC_378082.2,NM_775103.1,NP_588926.1,NG_592857.1,3,c.333A>G,p.Leu177Thr,TP53,Asthma,Blueberries,Moderate,Variant in TP53 associated with increased risk of Diabetes when consuming Blueberries.
+rs595007,NC_377804.5,NM_598443.1,NP_938969.6,NG_595988.3,22,c.110A>G,p.Gly157Arg,TP53,Alzheimer,Tomato,Low,Variant in TP53 associated with increased risk of Alzheimer when consuming Tomato.
+rs655941,NC_237491.1,NM_482563.9,NP_250058.2,NG_399118.3,15,c.115A>G,p.Leu119Thr,BRCA1,Asthma,Yogurt,Modifier,Variant in BRCA1 associated with increased risk of Asthma when consuming Salmon.
+rs697676,NC_234345.8,NM_126067.3,NP_477488.2,NG_734123.3,11,c.682A>G,p.Leu36Ser,BRCA1,Cancer,Yogurt,Moderate,Variant in BRCA1 associated with increased risk of Alzheimer when consuming Salmon.
+rs311644,NC_115490.6,NM_321273.3,NP_897466.1,NG_503500.1,3,c.832A>G,p.Val228Ser,CFTR,Alzheimer,Yogurt,Modifier,Variant in CFTR associated with increased risk of Diabetes when consuming Tomato.
+rs418196,NC_832287.2,NM_112014.4,NP_562819.9,NG_200672.3,21,c.736A>G,p.Leu134Ser,APOE,Asthma,Salmon,Low,Variant in APOE associated with increased risk of Cystic Fibrosis when consuming Blueberries.
+rs691376,NC_180410.1,NM_420935.4,NP_257572.3,NG_630319.8,7,c.523A>G,p.Gly23Thr,CFTR,Cancer,Yogurt,High,Variant in CFTR associated with increased risk of Cystic Fibrosis when consuming Yogurt.
+rs978773,NC_110006.4,NM_871020.2,NP_846413.6,NG_744728.8,X,c.692A>G,p.Val235Ser,TP53,Diabetes,Tomato,Low,Variant in TP53 associated with increased risk of Cancer when consuming Tomato.
+rs688319,NC_974737.4,NM_662738.2,NP_887713.9,NG_195730.4,13,c.202A>G,p.Gly268Ser,BRCA1,Asthma,Blueberries,High,Variant in BRCA1 associated with increased risk of Cystic Fibrosis when consuming Yogurt.
+rs406447,NC_453545.6,NM_876432.2,NP_842509.5,NG_688551.7,12,c.720A>G,p.Gly66Arg,TP53,Cancer,Tomato,Moderate,Variant in TP53 associated with increased risk of Alzheimer when consuming Salmon.
+rs744931,NC_288200.5,NM_644146.6,NP_776844.5,NG_573295.5,9,c.849A>G,p.Gly121Thr,CFTR,Cancer,Tomato,Low,Variant in CFTR associated with increased risk of Diabetes when consuming Yogurt.
+rs680785,NC_509419.1,NM_355261.5,NP_785107.6,NG_143630.3,1,c.524A>G,p.Gly259Ser,CFTR,Alzheimer,Broccoli,Low,Variant in CFTR associated with increased risk of Cancer when consuming Broccoli.
+rs222322,NC_891747.3,NM_496323.7,NP_233204.2,NG_890541.1,19,c.723A>G,p.Leu255Thr,APOE,Alzheimer,Salmon,Moderate,Variant in APOE associated with increased risk of Asthma when consuming Blueberries.
+rs156369,NC_635501.5,NM_548145.9,NP_915795.1,NG_118465.7,X,c.327A>G,p.Gly223Thr,BRCA1,Cystic Fibrosis,Tomato,High,Variant in BRCA1 associated with increased risk of Diabetes when consuming Salmon.
+rs935345,NC_283806.6,NM_435665.4,NP_783427.3,NG_625616.8,20,c.91A>G,p.Gly278Arg,TP53,Cancer,Blueberries,High,Variant in TP53 associated with increased risk of Cystic Fibrosis when consuming Yogurt.
+rs724319,NC_959485.7,NM_695362.8,NP_695206.1,NG_536237.5,17,c.403A>G,p.Gly36Arg,APOE,Cancer,Blueberries,Low,Variant in APOE associated with increased risk of Asthma when consuming Tomato.
+rs149598,NC_502006.2,NM_666545.1,NP_309576.8,NG_855420.1,Y,c.606A>G,p.Val225Ser,APOE,Diabetes,Broccoli,Moderate,Variant in APOE associated with increased risk of Alzheimer when consuming Yogurt.
+rs510310,NC_185854.2,NM_181536.4,NP_955937.8,NG_788095.9,3,c.173A>G,p.Gly54Arg,EGFR,Cancer,Blueberries,Moderate,Variant in EGFR associated with increased risk of Asthma when consuming Yogurt.
+rs150968,NC_859248.6,NM_626033.1,NP_658720.3,NG_192815.8,2,c.900A>G,p.Gly266Arg,TP53,Asthma,Blueberries,Modifier,Variant in TP53 associated with increased risk of Cancer when consuming Broccoli.
+rs884878,NC_236602.3,NM_634228.3,NP_124981.9,NG_763089.1,1,c.328A>G,p.Val207Thr,EGFR,Cancer,Broccoli,Modifier,Variant in EGFR associated with increased risk of Diabetes when consuming Blueberries.
+rs807913,NC_365402.2,NM_191856.3,NP_657157.9,NG_436976.5,2,c.178A>G,p.Val244Thr,BRCA1,Cancer,Salmon,High,Variant in BRCA1 associated with increased risk of Cystic Fibrosis when consuming Blueberries.
+rs165128,NC_972384.6,NM_167265.7,NP_326793.4,NG_566905.6,9,c.573A>G,p.Gly154Ser,TP53,Cystic Fibrosis,Yogurt,High,Variant in TP53 associated with increased risk of Asthma when consuming Tomato.
+rs621213,NC_861175.2,NM_381935.5,NP_513340.8,NG_739485.6,4,c.98A>G,p.Val55Arg,APOE,Cancer,Tomato,Modifier,Variant in APOE associated with increased risk of Asthma when consuming Salmon.
+rs672802,NC_244302.7,NM_366842.2,NP_200512.7,NG_175329.8,Y,c.57A>G,p.Val132Ser,EGFR,Diabetes,Broccoli,Low,Variant in EGFR associated with increased risk of Cancer when consuming Yogurt.
+rs695321,NC_439730.9,NM_419715.8,NP_902042.1,NG_290459.1,Y,c.272A>G,p.Gly176Arg,EGFR,Cancer,Broccoli,High,Variant in EGFR associated with increased risk of Asthma when consuming Blueberries.
+rs188781,NC_580692.9,NM_855877.9,NP_533605.3,NG_379505.6,4,c.658A>G,p.Leu249Arg,EGFR,Diabetes,Yogurt,Low,Variant in EGFR associated with increased risk of Cancer when consuming Yogurt.
+rs150837,NC_547027.8,NM_691731.4,NP_457598.4,NG_720351.8,21,c.284A>G,p.Leu242Thr,EGFR,Alzheimer,Broccoli,Low,Variant in EGFR associated with increased risk of Alzheimer when consuming Salmon.
+rs263483,NC_750314.6,NM_515168.3,NP_108147.9,NG_632935.1,22,c.943A>G,p.Leu103Thr,BRCA1,Cystic Fibrosis,Blueberries,Moderate,Variant in BRCA1 associated with increased risk of Asthma when consuming Salmon.
+rs633244,NC_128354.7,NM_986747.1,NP_951278.9,NG_718454.9,1,c.434A>G,p.Gly51Thr,APOE,Cancer,Broccoli,High,Variant in APOE associated with increased risk of Diabetes when consuming Salmon.
+rs792952,NC_673572.4,NM_603468.6,NP_926091.3,NG_290965.5,14,c.571A>G,p.Val158Ser,CFTR,Alzheimer,Salmon,Moderate,Variant in CFTR associated with increased risk of Diabetes when consuming Broccoli.
+rs369516,NC_645702.9,NM_164884.1,NP_546229.2,NG_451520.1,10,c.182A>G,p.Leu266Thr,APOE,Diabetes,Salmon,Low,Variant in APOE associated with increased risk of Cystic Fibrosis when consuming Blueberries.
+rs159950,NC_820732.6,NM_867338.6,NP_742961.6,NG_901398.2,6,c.529A>G,p.Leu185Thr,APOE,Alzheimer,Salmon,Modifier,Variant in APOE associated with increased risk of Alzheimer when consuming Yogurt.
+rs487557,NC_729899.5,NM_172927.1,NP_320034.7,NG_553040.8,9,c.783A>G,p.Gly196Arg,CFTR,Cancer,Tomato,Low,Variant in CFTR associated with increased risk of Asthma when consuming Blueberries.
+rs214874,NC_467793.3,NM_835354.9,NP_295795.5,NG_218761.9,21,c.462A>G,p.Gly17Ser,BRCA1,Cystic Fibrosis,Blueberries,Low,Variant in BRCA1 associated with increased risk of Alzheimer when consuming Broccoli.
+rs962318,NC_427148.1,NM_801525.7,NP_804270.4,NG_130296.1,5,c.17A>G,p.Val179Ser,TP53,Diabetes,Yogurt,Modifier,Variant in TP53 associated with increased risk of Cystic Fibrosis when consuming Salmon.
+rs602424,NC_901487.8,NM_439236.8,NP_702384.4,NG_381919.6,17,c.336A>G,p.Val7Thr,APOE,Cystic Fibrosis,Tomato,High,Variant in APOE associated with increased risk of Alzheimer when consuming Broccoli.
+rs708672,NC_351724.7,NM_793112.7,NP_932124.9,NG_718491.4,18,c.794A>G,p.Leu264Thr,APOE,Diabetes,Blueberries,High,Variant in APOE associated with increased risk of Alzheimer when consuming Broccoli.
+rs708574,NC_295427.2,NM_454668.5,NP_435318.1,NG_182770.3,10,c.819A>G,p.Val173Arg,CFTR,Cystic Fibrosis,Blueberries,High,Variant in CFTR associated with increased risk of Diabetes when consuming Blueberries.
+rs309647,NC_898249.1,NM_964095.1,NP_166063.4,NG_437665.4,20,c.611A>G,p.Gly115Thr,BRCA1,Cystic Fibrosis,Salmon,Low,Variant in BRCA1 associated with increased risk of Alzheimer when consuming Yogurt.
+rs442750,NC_428839.6,NM_901832.8,NP_433258.7,NG_702752.4,11,c.198A>G,p.Val201Ser,BRCA1,Alzheimer,Yogurt,Modifier,Variant in BRCA1 associated with increased risk of Diabetes when consuming Broccoli.
+rs972306,NC_262446.7,NM_411821.7,NP_396305.1,NG_639513.8,7,c.569A>G,p.Val68Ser,TP53,Asthma,Yogurt,High,Variant in TP53 associated with increased risk of Cancer when consuming Broccoli.
+rs345289,NC_488543.5,NM_796235.1,NP_466920.2,NG_166249.8,14,c.786A>G,p.Val233Arg,APOE,Asthma,Blueberries,Low,Variant in APOE associated with increased risk of Alzheimer when consuming Broccoli.
+rs431031,NC_575150.6,NM_653695.1,NP_870082.4,NG_706998.4,3,c.937A>G,p.Gly140Ser,EGFR,Alzheimer,Salmon,High,Variant in EGFR associated with increased risk of Cancer when consuming Salmon.
+rs354106,NC_563586.8,NM_984629.3,NP_438926.1,NG_606889.2,8,c.970A>G,p.Val277Thr,TP53,Diabetes,Blueberries,Modifier,Variant in TP53 associated with increased risk of Cystic Fibrosis when consuming Blueberries.
+rs890196,NC_111869.1,NM_846820.3,NP_197518.4,NG_164511.2,6,c.348A>G,p.Leu243Thr,APOE,Diabetes,Salmon,Moderate,Variant in APOE associated with increased risk of Cancer when consuming Tomato.
+rs461168,NC_473766.6,NM_182935.2,NP_843078.2,NG_310131.2,21,c.348A>G,p.Leu77Thr,APOE,Cancer,Blueberries,Modifier,Variant in APOE associated with increased risk of Cancer when consuming Tomato.
+rs775296,NC_332544.1,NM_606042.5,NP_483044.7,NG_381112.4,10,c.548A>G,p.Leu182Arg,CFTR,Cystic Fibrosis,Salmon,High,Variant in CFTR associated with increased risk of Alzheimer when consuming Broccoli.
+rs991126,NC_954891.3,NM_842349.2,NP_230618.2,NG_866630.4,X,c.153A>G,p.Val164Arg,TP53,Asthma,Salmon,Moderate,Variant in TP53 associated with increased risk of Diabetes when consuming Yogurt.
+rs395099,NC_859421.8,NM_785082.8,NP_134360.7,NG_970437.3,11,c.104A>G,p.Gly279Ser,APOE,Diabetes,Yogurt,Modifier,Variant in APOE associated with increased risk of Asthma when consuming Blueberries.
+rs212280,NC_830073.7,NM_405926.3,NP_221892.5,NG_292255.8,7,c.736A>G,p.Val109Thr,EGFR,Diabetes,Blueberries,Moderate,Variant in EGFR associated with increased risk of Alzheimer when consuming Tomato.
+rs297334,NC_588837.2,NM_683838.3,NP_645767.9,NG_177119.7,12,c.863A>G,p.Gly280Ser,CFTR,Asthma,Blueberries,Moderate,Variant in CFTR associated with increased risk of Alzheimer when consuming Yogurt.
+rs664208,NC_445947.4,NM_543349.4,NP_593350.5,NG_710828.1,16,c.81A>G,p.Gly19Arg,TP53,Asthma,Broccoli,Modifier,Variant in TP53 associated with increased risk of Diabetes when consuming Yogurt.
+rs641609,NC_885236.5,NM_185652.5,NP_642214.3,NG_642359.4,2,c.742A>G,p.Val289Thr,EGFR,Cystic Fibrosis,Salmon,Modifier,Variant in EGFR associated with increased risk of Cystic Fibrosis when consuming Yogurt.
+rs655660,NC_913190.2,NM_376506.8,NP_821658.4,NG_178272.4,1,c.872A>G,p.Gly172Arg,BRCA1,Alzheimer,Yogurt,Moderate,Variant in BRCA1 associated with increased risk of Cancer when consuming Tomato.
+rs306686,NC_451308.9,NM_706257.4,NP_468191.5,NG_780873.2,16,c.229A>G,p.Val264Arg,EGFR,Asthma,Blueberries,High,Variant in EGFR associated with increased risk of Cystic Fibrosis when consuming Blueberries.
+rs129688,NC_266565.4,NM_446223.6,NP_707151.9,NG_575219.5,4,c.144A>G,p.Leu276Thr,BRCA1,Cancer,Yogurt,High,Variant in BRCA1 associated with increased risk of Diabetes when consuming Tomato.
+rs539642,NC_899879.8,NM_790080.4,NP_895277.6,NG_545210.6,11,c.177A>G,p.Gly244Arg,CFTR,Cystic Fibrosis,Yogurt,High,Variant in CFTR associated with increased risk of Alzheimer when consuming Yogurt.
+rs238332,NC_202156.7,NM_905664.9,NP_462402.3,NG_331239.3,1,c.871A>G,p.Val185Ser,CFTR,Diabetes,Broccoli,Modifier,Variant in CFTR associated with increased risk of Cystic Fibrosis when consuming Blueberries.
+rs231947,NC_953575.7,NM_456271.2,NP_557843.9,NG_101796.5,Y,c.823A>G,p.Leu143Thr,APOE,Asthma,Yogurt,Moderate,Variant in APOE associated with increased risk of Diabetes when consuming Blueberries.
+rs843571,NC_922074.8,NM_387518.7,NP_884125.7,NG_271779.6,16,c.96A>G,p.Gly229Thr,CFTR,Diabetes,Yogurt,Low,Variant in CFTR associated with increased risk of Cancer when consuming Tomato.
+rs582320,NC_360923.9,NM_297489.9,NP_809332.1,NG_481624.7,1,c.674A>G,p.Val46Arg,TP53,Diabetes,Broccoli,Moderate,Variant in TP53 associated with increased risk of Asthma when consuming Broccoli.
+rs795320,NC_625755.2,NM_640386.5,NP_259057.2,NG_944786.5,Y,c.257A>G,p.Gly62Arg,BRCA1,Alzheimer,Blueberries,Modifier,Variant in BRCA1 associated with increased risk of Cancer when consuming Broccoli.
+rs397676,NC_584758.2,NM_587506.9,NP_115344.1,NG_262623.3,7,c.654A>G,p.Val93Arg,CFTR,Diabetes,Tomato,Low,Variant in CFTR associated with increased risk of Diabetes when consuming Broccoli.
+rs877268,NC_957291.2,NM_363861.8,NP_765475.5,NG_220292.7,17,c.369A>G,p.Gly62Thr,EGFR,Asthma,Salmon,Moderate,Variant in EGFR associated with increased risk of Alzheimer when consuming Salmon.
+rs650801,NC_881718.3,NM_825944.6,NP_744677.8,NG_333867.5,7,c.313A>G,p.Leu12Ser,CFTR,Cancer,Yogurt,Moderate,Variant in CFTR associated with increased risk of Alzheimer when consuming Broccoli.
+rs894559,NC_759939.6,NM_755957.1,NP_825327.1,NG_141598.7,1,c.919A>G,p.Val149Thr,EGFR,Asthma,Broccoli,Modifier,Variant in EGFR associated with increased risk of Cystic Fibrosis when consuming Blueberries.
+rs623284,NC_648723.1,NM_946047.7,NP_678035.4,NG_172196.2,4,c.761A>G,p.Leu270Arg,BRCA1,Asthma,Yogurt,High,Variant in BRCA1 associated with increased risk of Cystic Fibrosis when consuming Tomato.
+rs243612,NC_428146.5,NM_459311.3,NP_660336.9,NG_530177.8,3,c.95A>G,p.Leu172Ser,BRCA1,Cystic Fibrosis,Salmon,High,Variant in BRCA1 associated with increased risk of Cancer when consuming Broccoli.
+rs730684,NC_966082.4,NM_569529.3,NP_298188.3,NG_594690.7,3,c.53A>G,p.Gly71Arg,TP53,Alzheimer,Yogurt,Moderate,Variant in TP53 associated with increased risk of Alzheimer when consuming Blueberries.
+rs810443,NC_716623.6,NM_433938.9,NP_904785.6,NG_916957.2,21,c.188A>G,p.Gly102Thr,CFTR,Cancer,Blueberries,Moderate,Variant in CFTR associated with increased risk of Alzheimer when consuming Tomato.
+rs301602,NC_897566.1,NM_640485.5,NP_399856.5,NG_979331.6,2,c.14A>G,p.Gly200Thr,TP53,Alzheimer,Tomato,Low,Variant in TP53 associated with increased risk of Alzheimer when consuming Salmon.
+rs784317,NC_146536.7,NM_875574.1,NP_460578.4,NG_998403.5,11,c.296A>G,p.Gly101Ser,EGFR,Cancer,Tomato,Moderate,Variant in EGFR associated with increased risk of Asthma when consuming Blueberries.
+rs497490,NC_549805.1,NM_756483.8,NP_355595.3,NG_990214.3,14,c.249A>G,p.Gly164Arg,BRCA1,Cancer,Salmon,High,Variant in BRCA1 associated with increased risk of Alzheimer when consuming Tomato.
+rs968666,NC_695217.1,NM_947892.8,NP_552146.9,NG_367948.1,19,c.612A>G,p.Val116Thr,EGFR,Cancer,Tomato,Low,Variant in EGFR associated with increased risk of Alzheimer when consuming Salmon.
+rs857986,NC_575623.7,NM_466777.6,NP_467890.6,NG_655117.5,Y,c.469A>G,p.Gly74Arg,TP53,Alzheimer,Tomato,High,Variant in TP53 associated with increased risk of Asthma when consuming Yogurt.
+rs368350,NC_739127.5,NM_276063.4,NP_817873.4,NG_551636.4,4,c.260A>G,p.Leu117Ser,CFTR,Asthma,Broccoli,Low,Variant in CFTR associated with increased risk of Asthma when consuming Tomato.
