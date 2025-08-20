@@ -32,7 +32,7 @@ export default function DataAnalysis() {
     try {
       const api = getFastAPI();
       const response = await api.foodAnalizeSnpsFoodAnalizeFoodNameGet(value, {
-        baseURL: "http://0.0.0.0:8000/api",
+        baseURL: "http://10.99.0.73:8000/api",
       });
       console.log("Response ", response);
       if (!response.data || !response.data.counts.beneficial) setNotFound(true);
@@ -119,19 +119,21 @@ export default function DataAnalysis() {
                   <TableHeader>
                     <TableRow>
                       <TableHead>Disease</TableHead>
+                      <TableHead>Gene</TableHead>
                     </TableRow>
                   </TableHeader>
                   <TableBody>
                     {result.disease.map((r, index) => (
                       <TableRow key={index}>
                         <TableCell>{r.disease}</TableCell>
+                        <TableCell>{r.gene_info}</TableCell>
                       </TableRow>
                     ))}
                   </TableBody>
                 </Table>
               </div>
               <p className="text-center text-sm py-2 text-gray-500">
-                First 5 distinct harmful disease result
+                First 10 distinct harmful disease result
               </p>
             </div>
             <div className="my-2">
@@ -162,7 +164,7 @@ export default function DataAnalysis() {
                 </Table>
               </div>
               <p className="text-center text-sm py-2 text-gray-500">
-                First 5 harmful results
+                First 10 harmful results
               </p>
             </div>
             <div className="my-2">
@@ -192,7 +194,7 @@ export default function DataAnalysis() {
                 </Table>
               </div>
               <p className="text-center text-sm py-2 text-gray-500">
-                First 5 beneficial results
+                First 10 beneficial results
               </p>
             </div>
             <div className="my-2">
@@ -222,7 +224,7 @@ export default function DataAnalysis() {
                 </Table>
               </div>
               <p className="text-center text-sm py-2 text-gray-500">
-                First 5 neutral results
+                First 10 neutral results
               </p>
             </div>
           </div>
