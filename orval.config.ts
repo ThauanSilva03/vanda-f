@@ -1,6 +1,6 @@
 export default {
   api: {
-    input: "http://10.99.0.73:8000/api/openapi.json",
+    input: `${process.env.NEXT_PUBLIC_API_URL}/openapi.json`,
     output: {
       mode: "split",
       target: "./src/api",

@@ -4,7 +4,7 @@ import Header from "@/components/header";
 export default function About() {
   return (
     <div>
-      <Header page="dataAnalysis" />
+      <Header />
       <div className="px-96">
         <div>
           <h2 className="text-3xl font-bold py-5">About us</h2>

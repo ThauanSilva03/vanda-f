@@ -24,7 +24,11 @@ const COLORS = [
   "#66ccff",
 ];
 
-export default function BarChartGenes({ data }) {
+interface Props {
+  data: any;
+}
+
+export default function BarChartGenes({ data }: Props) {
   return (
     <div
       style={{ width: "100%", height: 400 }}
@@ -45,7 +49,7 @@ export default function BarChartGenes({ data }) {
           <YAxis />
           <Tooltip formatter={(value) => [value, "SNPs"]} />
           <Bar dataKey="snp_count">
-            {data.map((entry, index) => (
+            {data.map((entry: any, index: any) => (
               <Cell
                 key={`cell-${entry.gene_info}`}
                 fill={COLORS[index % COLORS.length]}

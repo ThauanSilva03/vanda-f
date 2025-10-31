@@ -34,8 +34,8 @@ export default function SNPDetailPage() {
 
     try {
       const api = getFastAPI();
-      const response = await api.snpPageSnpSnpIdGet(id, {
-        baseURL: "http://10.99.0.73:8000/api",
+      const response: any = await api.snpPageSnpSnpIdGet(id, {
+        baseURL: process.env.NEXT_PUBLIC_API_URL,
       });
 
       // Check if the response is empty or indicates no data
@@ -75,7 +75,7 @@ export default function SNPDetailPage() {
               SNP Not Found
             </h2>
             <p className="text-xl text-gray-600 mb-6">
-              The SNP "{id}" could not be found in our database.
+              The SNP {id} could not be found in our database.
             </p>
             <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 rounded">
               <p className="text-yellow-700 mb-2">Possible reasons:</p>

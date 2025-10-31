@@ -1,7 +1,6 @@
 "use client";
 import { getFastAPI } from "@/api/fastAPI";
 import BarChartGenes from "@/components/barChart";
-import BarraChart from "@/components/barChart";
 import Header from "@/components/header";
 import PizzaChart from "@/components/pieChart";
 import {
@@ -31,9 +30,12 @@ export default function DataAnalysis() {
 
     try {
       const api = getFastAPI();
-      const response = await api.foodAnalizeSnpsFoodAnalizeFoodNameGet(value, {
-        baseURL: "http://10.99.0.73:8000/api",
-      });
+      const response: any = await api.foodAnalizeSnpsFoodAnalizeFoodNameGet(
+        value,
+        {
+          baseURL: process.env.NEXT_PUBLIC_API_URL,
+        }
+      );
       console.log("Response ", response);
       if (!response.data || !response.data.counts.beneficial) setNotFound(true);
       else setResult(response.data);
@@ -123,7 +125,7 @@ export default function DataAnalysis() {
                     </TableRow>
                   </TableHeader>
                   <TableBody>
-                    {result.disease.map((r, index) => (
+                    {result.disease.map((r: any, index: any) => (
                       <TableRow key={index}>
                         <TableCell>{r.disease}</TableCell>
                         <TableCell>{r.gene_info}</TableCell>
@@ -151,7 +153,7 @@ export default function DataAnalysis() {
                     </TableRow>
                   </TableHeader>
                   <TableBody>
-                    {result.details.harmful.map((r, index) => (
+                    {result.details.harmful.map((r: any, index: any) => (
                       <TableRow key={index}>
                         <TableCell>{r.food}</TableCell>
                         <TableCell>{r.disease}</TableCell>
@@ -181,7 +183,7 @@ export default function DataAnalysis() {
                     </TableRow>
                   </TableHeader>
                   <TableBody>
-                    {result.details.beneficial.map((r, index) => (
+                    {result.details.beneficial.map((r: any, index: any) => (
                       <TableRow key={index}>
                         <TableCell>{r.food}</TableCell>
                         <TableCell>{r.disease}</TableCell>
@@ -211,7 +213,7 @@ export default function DataAnalysis() {
                     </TableRow>
                   </TableHeader>
                   <TableBody>
-                    {result.details.neutral.map((r, index) => (
+                    {result.details.neutral.map((r: any, index: any) => (
                       <TableRow key={index}>
                         <TableCell>{r.food}</TableCell>
                         <TableCell>{r.disease}</TableCell>
